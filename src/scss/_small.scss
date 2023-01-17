@@ -1,0 +1,13 @@
+@media only screen and (max-width: 40rem) {
+    h1, h2 {
+    	font-size: 2rem;
+    }
+}
+@media only screen and (max-width: 30rem) {
+    h1, h2 {
+    	font-size: 1.5rem;
+    }
+    p {
+        font-size: 0.75rem;
+    }
+}

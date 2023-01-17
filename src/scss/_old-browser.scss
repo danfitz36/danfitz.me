@@ -1,0 +1,70 @@
+#oldBrowser {
+	background-color: rgba($secondary, 0.8);
+	bottom: 0;
+	color: #fff;
+	left: 0;
+	overflow: hidden;
+	padding: 8rem;
+	position: fixed;
+	right: 0;
+	text-align: center;
+	top: 0;
+	transition: all 0.75s;
+	z-index: 10;
+
+	&.hidden {
+		bottom: 100%;
+		opacity: 0;
+	}
+	.close {
+		border: none;
+		border-radius: 50%;
+		background-color: transparent;
+		color: #fff;
+		font-size: 1.5rem;
+		line-height: 1;
+		opacity: 0.65;
+		outline: none;
+		padding: 0.5rem;
+		position: absolute;
+		top: 1rem;
+		right: 1rem;
+
+		&:hover {
+			opacity: 1;
+			text-shadow: 0 0 0.5rem rgba(#000, 0.35);
+		}
+	}
+	ul {
+		margin: 0 auto;
+		padding: 0;
+		width: 15rem;
+
+		li {
+			list-style-type: none;
+			margin-bottom: 0.25rem;
+		}
+	}
+	a,
+	button:not(.close) {
+		border: 1px solid #fff;
+		border-radius: 0.125rem;
+		display: block;
+		color: #fff;
+		padding: 0.75rem 1.25rem;
+		text-align: center;
+
+		&:hover {
+			text-decoration: none;
+			color: $secondary;
+			background-color: #fff;
+		}
+	}
+	button:not(.close) {
+		background-color: transparent;
+		border-width: 3px;
+		margin: 0 auto;
+		outline: none;
+		width: 15rem;
+	}
+}

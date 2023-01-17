@@ -1,0 +1,136 @@
+body {
+	background-color: rgba($secondary, 0.1);
+	color: lighten(desaturate($secondary, 60%), 15%);
+	font-family: 'Bitter', serif;
+	min-width: 20rem;
+	padding-top: 100vh;
+	position: relative;
+}
+header,
+footer {
+	background: linear-gradient(135deg, $primary, $secondary);
+	left: 0;
+	opacity: 0.9;
+	position: fixed;
+	right: 0;
+	z-index: 2;
+}
+header {
+	box-shadow: 0 2px 6px rgba(0, 0, 0, .35);
+	top: 0;
+}
+h1, h2 {
+	font-size: 3rem;
+	line-height: 1;
+    transition: font-size 0.3s;
+}
+h2 {
+	font-weight: 400;
+	margin: 0 1rem 2rem 1rem;
+}
+a {
+	color: $primary;
+	transition: all .2s;
+
+	&:hover,
+	&:active {
+		color: lighten($primary, 10%);
+	}
+}
+section {
+	background-color: #fff;
+	box-shadow: 0 0 10rem rgba($secondary, 0.15);
+	padding-top: 2rem;
+	padding-bottom: 1rem;
+	position: relative;
+	transform: skewY(4deg);
+
+	> div {
+		transform: skewY(-4deg);
+	}
+	&:first-of-type {
+		box-shadow: 0 0 0.125rem rgba(#000, 0.25);
+	}
+}
+footer {
+	bottom: 0;
+	box-shadow: 0 -2px 6px rgba(#000, 0.35);
+	height: 2.25rem;
+
+	ul {
+		margin: 0 auto;
+		padding: 0;
+		text-align: center;
+
+		> li {
+			display: inline-block;
+		}
+	}
+	a {
+		color: #fff;
+		display: block;
+		font-size: 0.75rem;
+		line-height: 1;
+		opacity: 0.6;
+		padding: 0.75rem 1.25rem;
+		position: relative;
+		transition: all 0.2s;
+
+		&:hover {
+			color: #fff;
+			opacity: 1;
+
+			&::before {
+				border: 0.25rem solid transparent;
+				border-top-color: $secondary;
+				content: '';
+				display: block;
+				height: 0;
+				left: 50%;
+				opacity: 0.8;
+				position: absolute;
+				top: 0;
+				transform: translate(-50%, -50%);
+				width: 0;
+			}
+			&::after {
+				background-color: $secondary;
+				border-radius: 2px;
+				color: #fff;
+				content: attr(data-title);
+				display: block;
+				left: 50%;
+				opacity: 0.8;
+				padding: 4px 6px;
+				position: absolute;
+				top: -0.25rem;
+				transform: translate(-50%, -100%);
+				white-space: nowrap;
+			}
+		}
+	}
+}
+.fixed {
+	color: #fff;
+	left: 0;
+	padding: 1rem;
+	position: fixed;
+	right: 0;
+	top: 50%;
+	text-align: center;
+	text-shadow: 0 0 3rem rgba(#000, 0.15);
+	transform: translateY(-50%);
+}
+#dfLogo {
+	fill: #fff;
+	width: 12rem;
+	filter: drop-shadow(0 0 3rem rgba(#000, 0.15));
+	overflow: visible;
+}
+#info > div {
+	color: lighten(desaturate($secondary, 60%), 60%);
+	margin: 0 auto;
+	max-width: 36rem;
+	padding: 6rem 1rem;
+	text-align: center;
+}

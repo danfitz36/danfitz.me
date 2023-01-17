@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Daniel Fitzpatrick | Design &amp; Development Portfolio</title>
+	<link href="css/df.min.css" rel="stylesheet" type="text/css">
+</head>
+<body id="top">
+	<header>
+		<nav id="mainNav">
+			<ul class="horizontal">
+				<li class="active"><a class="brand" href="#top">Dan Fitz</a></li>
+				<li><a href="index.html#smashfly">SmashFly</a></li>
+				<li><a href="index.html#bullhorn">Bullhorn</a></li>
+				<li><a href="index.html#seahorse">Seahorse</a></li>
+				<li><a href="index.html#freelance">Freelance</a></li>
+				<li><a href="index.html#breakmark">Breakmark</a></li>
+				<li><a href="index.html#tomlinson">Tomlinson</a></li>
+				<li><a href="index.html#vibram">FiveFingers</a></li>
+				<li><a href="index.html#lindt">Lindt</a></li>
+				<li><a href="index.html#javaccino">Javaccino</a></li>
+				<li><a href="index.html#trask">Trask</a></li>
+				<li><a href="index.html#dermatology">Derm Partners</a></li>
+				<li><a href="index.html#risd">RISD</a></li>
+			</ul>
+			<button type="button"><span class="more"></span></button>
+			<ul class="vertical hidden"></ul>
+		</nav>
+	</header>
+	<div class="fixed">
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" id="dfLogo">
+			<path d="M13 48C5.8 48 0 42.2 0 35s5.8-13 13-13h9v-9c0-7.2 5.8-13 13-13s13 5.8 13 13h-4c0-5-4-9-9-9s-9 4-9 9v9h9v4h-9v9c0 7.2-5.8 13-13 13zm0-22c-5 0-9 4-9 9s4 9 9 9 9-4 9-9v-9h-9z"/>
+		</svg>
+		<h1>Page Not Found</h1>
+	</div>
+	<footer>
+		<ul>
+			<li><a href="mailto:daniel@danfitz.me" data-title="daniel@danfitz.me">e-mail</a></li>
+			<li><a href="tel:1-781-454-8555" data-title="781 454 8555">cell phone</a></li>
+			<li><a href="https://www.linkedin.com/in/danfitz36" target="_blank" data-title="temporary resume">LinkedIn</a></li>
+			<!--<li><a href="Dan_Fitz_resume.pdf" data-title="Download PDF">resum&eacute;</a></li>-->
+		</ul>
+	</footer>
+	<!--[if lte IE 10 ]>
+	<div id="oldBrowser">
+		<button type="button" class="close">&times;</button>
+		<p>You're missing out on the best that the web has to offer.<br />
+		You should update to one of the following modern browsers immediately.</p>
+		<ul>
+			<li><a href="https://www.google.com/chrome/browser/desktop/" id="chrome" title="Chrome" target="_blank">Google Chrome</a></li>
+			<li><a href="http://www.mozilla.org/firefox/new/" id="firefox" title="Firefox" target="_blank">Mozilla Firefox</a></li>
+			<li><a href="http://windows.microsoft.com/ie" id="ie" title="Internet Explorer" target="_blank">Internet Explorer</a></li>
+			<li><a href="http://www.apple.com/safari/" id="safari" title="Safari" target="_blank">Apple Safari</a></li>
+			<li><a href="http://www.opera.com/" id="opera" title="Opera" target="_blank">Opera</a></li>
+		</ul>
+		<button type="button">I'll risk it.</button>
+		<noscript>
+			<p>I give up, you have javascript disabled and an old browser.<br />
+			You'll enjoy these <a href="http://www.reddit.com/r/aww/">cute pictures</a> more than my portfolio anyway.</p>
+		</noscript>
+	</div>
+	<![endif]-->
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<script src="js/df.min.js"></script>
+</body>
+</html>

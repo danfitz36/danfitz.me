@@ -1,0 +1,668 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'Smashfly Icons';
+  src: url("../fonts/smashfly-icons.woff?1_2") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+.sf-icon,
+[class^="sfi-"],
+[class*=" sfi-"] {
+  display: inline-block;
+  font: normal normal normal 14px/1 'Smashfly Icons';
+  font-size: inherit;
+  speak: none;
+  text-rendering: auto;
+  text-transform: none;
+  vertical-align: baseline;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.sfi-lg {
+  font-size: 1.33333em !important;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+
+.sfi-2x {
+  font-size: 2em !important;
+}
+
+.sfi-3x {
+  font-size: 3em !important;
+}
+
+.sfi-4x {
+  font-size: 4em !important;
+}
+
+.sfi-5x {
+  font-size: 5em !important;
+}
+
+.sfi-spin {
+  animation: sfi-spin 1s infinite linear;
+}
+
+.sfi-rotate-90 {
+  transform: rotate(90deg);
+}
+
+.sfi-rotate-180 {
+  transform: rotate(180deg);
+}
+
+.sfi-rotate-270 {
+  transform: rotate(270deg);
+}
+
+.sfi-flip-horizontal {
+  transform: scale(-1, 1);
+}
+
+.sfi-flip-vertical {
+  transform: scale(1, -1);
+}
+
+@keyframes sfi-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(359deg);
+  }
+}
+.sfi-add-circle-outline:before {
+  content: "";
+}
+
+.sfi-add-circle:before {
+  content: "";
+}
+
+.sfi-add:before {
+  content: "";
+}
+
+.sfi-attachment:before {
+  content: "";
+}
+
+.sfi-back-more:before {
+  content: "";
+}
+
+.sfi-back:before {
+  content: "";
+}
+
+.sfi-blank:before {
+  content: "";
+}
+
+.sfi-bullet:before {
+  content: "";
+}
+
+.sfi-calendar:before {
+  content: "";
+}
+
+.sfi-campaign-email:before {
+  content: "";
+}
+
+.sfi-cancel:before {
+  content: "";
+}
+
+.sfi-check:before {
+  content: "";
+}
+
+.sfi-circle-outline:before {
+  content: "";
+}
+
+.sfi-clock:before {
+  content: "";
+}
+
+.sfi-close-circle-outline:before {
+  content: "";
+}
+
+.sfi-close-circle:before {
+  content: "";
+}
+
+.sfi-close:before {
+  content: "";
+}
+
+.sfi-collapse-outline:before {
+  content: "";
+}
+
+.sfi-collapse:before {
+  content: "";
+}
+
+.sfi-comment-add:before {
+  content: "";
+}
+
+.sfi-comment:before {
+  content: "";
+}
+
+.sfi-contact-internal:before {
+  content: "";
+}
+
+.sfi-copy:before {
+  content: "";
+}
+
+.sfi-down:before {
+  content: "";
+}
+
+.sfi-edit:before {
+  content: "";
+}
+
+.sfi-education:before {
+  content: "";
+}
+
+.sfi-event-step:before {
+  content: "";
+}
+
+.sfi-expand-outline:before {
+  content: "";
+}
+
+.sfi-expand-panel:before {
+  content: "";
+}
+
+.sfi-expand:before {
+  content: "";
+}
+
+.sfi-expired:before {
+  content: "";
+}
+
+.sfi-external:before {
+  content: "";
+}
+
+.sfi-filter:before {
+  content: "";
+}
+
+.sfi-forward-more:before {
+  content: "";
+}
+
+.sfi-forward:before {
+  content: "";
+}
+
+.sfi-globe-outline:before {
+  content: "";
+}
+
+.sfi-globe:before {
+  content: "";
+}
+
+.sfi-graph:before {
+  content: "";
+}
+
+.sfi-grid:before {
+  content: "";
+}
+
+.sfi-grip:before {
+  content: "";
+}
+
+.sfi-grow:before {
+  content: "";
+}
+
+.sfi-history:before {
+  content: "";
+}
+
+.sfi-import:before {
+  content: "";
+}
+
+.sfi-info-outline:before {
+  content: "";
+}
+
+.sfi-info:before {
+  content: "";
+}
+
+.sfi-job-email:before {
+  content: "";
+}
+
+.sfi-link:before {
+  content: "";
+}
+
+.sfi-list:before {
+  content: "";
+}
+
+.sfi-loader:before {
+  content: "";
+}
+
+.sfi-location-outline:before {
+  content: "";
+}
+
+.sfi-location:before {
+  content: "";
+}
+
+.sfi-lock:before {
+  content: "";
+}
+
+.sfi-mail:before {
+  content: "";
+}
+
+.sfi-menu:before {
+  content: "";
+}
+
+.sfi-mobile:before {
+  content: "";
+}
+
+.sfi-money:before {
+  content: "";
+}
+
+.sfi-notes:before {
+  content: "";
+}
+
+.sfi-people:before {
+  content: "";
+}
+
+.sfi-phone:before {
+  content: "";
+}
+
+.sfi-pin:before {
+  content: "";
+}
+
+.sfi-play:before {
+  content: "";
+}
+
+.sfi-print:before {
+  content: "";
+}
+
+.sfi-promote:before {
+  content: "";
+}
+
+.sfi-referral:before {
+  content: "";
+}
+
+.sfi-refresh:before {
+  content: "";
+}
+
+.sfi-resume-add:before {
+  content: "";
+}
+
+.sfi-resume:before {
+  content: "";
+}
+
+.sfi-search:before {
+  content: "";
+}
+
+.sfi-shrink:before {
+  content: "";
+}
+
+.sfi-skills:before {
+  content: "";
+}
+
+.sfi-sponsor:before {
+  content: "";
+}
+
+.sfi-star-half:before {
+  content: "";
+}
+
+.sfi-star-outline:before {
+  content: "";
+}
+
+.sfi-star:before {
+  content: "";
+}
+
+.sfi-status-ats:before {
+  content: "";
+}
+
+.sfi-status-event:before {
+  content: "";
+}
+
+.sfi-status-job:before {
+  content: "";
+}
+
+.sfi-status-list:before {
+  content: "";
+}
+
+.sfi-status:before {
+  content: "";
+}
+
+.sfi-subtract-circle-outline:before {
+  content: "";
+}
+
+.sfi-subtract-circle:before {
+  content: "";
+}
+
+.sfi-subtract:before {
+  content: "";
+}
+
+.sfi-system-note:before {
+  content: "";
+}
+
+.sfi-tag-outline:before {
+  content: "";
+}
+
+.sfi-tag:before {
+  content: "";
+}
+
+.sfi-tracking-link:before {
+  content: "";
+}
+
+.sfi-trash:before {
+  content: "";
+}
+
+.sfi-tutorial:before {
+  content: "";
+}
+
+.sfi-unchecked:before {
+  content: "";
+}
+
+.sfi-unlock:before {
+  content: "";
+}
+
+.sfi-up:before {
+  content: "";
+}
+
+.sfi-user:before {
+  content: "";
+}
+
+.sfi-users:before {
+  content: "";
+}
+
+.sfi-video:before {
+  content: "";
+}
+
+.sfi-warning-outline:before {
+  content: "";
+}
+
+.sfi-warning:before {
+  content: "";
+}
+
+.sfi-workflow:before {
+  content: "";
+}
+
+.sfi-campaigns-outline:before {
+  content: "";
+}
+
+.sfi-campaigns:before {
+  content: "";
+}
+
+.sfi-companies-outline:before {
+  content: "";
+}
+
+.sfi-companies:before {
+  content: "";
+}
+
+.sfi-configure:before {
+  content: "";
+}
+
+.sfi-contacts-outline:before {
+  content: "";
+}
+
+.sfi-contacts:before {
+  content: "";
+}
+
+.sfi-events:before {
+  content: "";
+}
+
+.sfi-home-outline:before {
+  content: "";
+}
+
+.sfi-home:before {
+  content: "";
+}
+
+.sfi-jobs-outline:before {
+  content: "";
+}
+
+.sfi-jobs:before {
+  content: "";
+}
+
+.sfi-profile:before {
+  content: "";
+}
+
+.sfi-schools:before {
+  content: "";
+}
+
+.sfi-reports-outline:before {
+  content: "";
+}
+
+.sfi-reports:before {
+  content: "";
+}
+
+.sfi-sign-in:before {
+  content: "";
+}
+
+.sfi-sign-out:before {
+  content: "";
+}
+
+.sfi-task:before {
+  content: "";
+}
+
+.sfi-line-chart:before {
+  content: "";
+}
+
+.sfi-bank:before {
+  content: "";
+}
+
+.sfi-coffee:before {
+  content: "";
+}
+
+.sfi-cutlery:before {
+  content: "";
+}
+
+.sfi-drinks:before {
+  content: "";
+}
+
+.sfi-gamepad:before {
+  content: "";
+}
+
+.sfi-grill:before {
+  content: "";
+}
+
+.sfi-guitar-outline:before {
+  content: "";
+}
+
+.sfi-guitar:before {
+  content: "";
+}
+
+.sfi-health:before {
+  content: "";
+}
+
+.sfi-heartbeat:before {
+  content: "";
+}
+
+.sfi-insurance:before {
+  content: "";
+}
+
+.sfi-plane:before {
+  content: "";
+}
+
+.sfi-vacation:before {
+  content: "";
+}
+
+.sfi-apple:before {
+  content: "";
+}
+
+.sfi-blog:before {
+  content: "";
+}
+
+.sfi-chrome:before {
+  content: "";
+}
+
+.sfi-explorer:before {
+  content: "";
+}
+
+.sfi-facebook:before {
+  content: "";
+}
+
+.sfi-firefox:before {
+  content: "";
+}
+
+.sfi-google-plus:before {
+  content: "";
+}
+
+.sfi-google:before {
+  content: "";
+}
+
+.sfi-linkedin:before {
+  content: "";
+}
+
+.sfi-opera:before {
+  content: "";
+}
+
+.sfi-outlook:before {
+  content: "";
+}
+
+.sfi-safari:before {
+  content: "";
+}
+
+.sfi-skype:before {
+  content: "";
+}
+
+.sfi-smashfly:before {
+  content: "";
+}
+
+.sfi-twitter:before {
+  content: "";
+}
+
+.sfi-windows:before {
+  content: "";
+}
+
+.sfi-yahoo:before {
+  content: "";
+}
+
+.sfi-youtube:before {
+  content: "";
+}
+
+/*# sourceMappingURL=smashfly-icons.css.map */
